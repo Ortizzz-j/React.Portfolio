@@ -1,14 +1,36 @@
+import './nav.scss'
+
 const Nav = ({ setPage, allPages }) => {
+    const [About, Resume, Contact, Portfolio] = allPages;
     return (
-        <nav>
-            {allPages.map(page => (
-            <button 
-                key={page}
-                onClick={() =>{setPage(page)}}>
-                {page}
+        <div className='navbtn'>
+            <h1>Mauricio's Portfolio</h1>
+        <span>
+            <button
+                className='nav'
+                onClick={() => { setPage('About') }}>
+                {About}
             </button>
-            ))}
-        </nav>
+
+            <button
+                className='nav'
+                onClick={() => { setPage('Resume') }}>
+                {Resume}
+            </button>
+
+            <button
+                className='nav'
+                onClick={() => { setPage('Contact') }}>
+                {Contact}
+            </button>
+
+            <button
+                className='nav'
+                onClick={() => { setPage('Portfolio') }}>
+                {Portfolio}
+            </button>
+            </span>
+        </div>
     )
 };
 
