@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import Nav from './components/Nav'
 import Page from './components/Page'
-import * as bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './app.scss'
 
 
 function App() {
 
   const [currentPage, setPage] = useState('About')
-  const allPages = ['About', 'Resume', 'Contact', 'Portfolio']
+  const allPages = ['About', 'Resume', 'Portfolio']
 
   return (
     <div>

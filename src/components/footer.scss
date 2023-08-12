@@ -1,9 +1,10 @@
-.github{
-    height: 40px
-}
-
-footer{
-    position: fixed;
-    left: 50%;
-    bottom: 0px;
+footer {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
 }

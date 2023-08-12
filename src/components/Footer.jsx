@@ -1,9 +1,10 @@
+import Stack from 'react-bootstrap/Stack'
 import './footer.scss'
-
 const Footer = () => {
     return (
-        <footer>
-            <div style={{ width: '104px', height: '62px' }}>
+        <footer> 
+            <Stack direction="horizontal" gap={2}>
+            <div style={{ width: '50px', height: '62px' }}>
                 <a href="https://github.com/Ortizzz-j" target="_blank">
                     <svg className='github' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
                         <path
@@ -14,13 +15,14 @@ const Footer = () => {
                         />
                     </svg>
                 </a>
+            </div>
+            <div>
                 <a href="https://www.linkedin.com/in/mauricio-ortiz-9b7741210/" target="_blank">
                     <img src="src/components/assets/LkN.png" alt='linkedIn logo' />
                 </a>
-            </div>
-            <div>
 
             </div>
+            </Stack>
         </footer>
     );
 

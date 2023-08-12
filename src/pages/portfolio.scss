@@ -1,6 +1,12 @@
-.port {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    text-decoration: underline;
+.repos{
+    color: #F4A261;
+    text-decoration: none;
+    :visited{
+        color: white;
+    }
+}
+
+.projs{
+    display:block;
+    width: 100%;
 }
