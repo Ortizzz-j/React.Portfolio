@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import resume from '../components/assets/Mauricio_webDevRes.pdf'
 
 
 const Resume = () => {
@@ -31,7 +32,7 @@ const Resume = () => {
                     </ul>
                     <p className="btn btn-success">
                         Download Resume!
-                        <a href="../components/assets/Mauricio_webDevRes.pdf" download="MauriciosResume"></a>
+                        <a href={resume} download="MauriciosResume"></a>
                     </p>
                     </Col>
                 </Row>
