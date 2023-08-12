@@ -2,13 +2,15 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './about.scss'
+import Mau from '../components/assets/Mau.jpeg'
+
 const About = () => {
     return (
         <div>
             <Container fluid>
                 <Row>
                     <Col>
-                        <h1 className="d-flex justify-content-center">About <img src='../components/assets/Mau.jpeg' className='mau' height="76px" width="65px" /></h1>
+                        <h1 className="d-flex justify-content-center">About <img src={Mau} className='mau' height="76px" width="65px" /></h1>
                     </Col>
                 </Row>
                 <Row>

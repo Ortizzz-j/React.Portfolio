@@ -1,5 +1,7 @@
 import Stack from 'react-bootstrap/Stack'
 import './footer.scss'
+import linkedIn from './assets/linkedIn.png'
+
 const Footer = () => {
     return (
         <footer> 
@@ -18,7 +20,7 @@ const Footer = () => {
             </div>
             <div>
                 <a href="https://www.linkedin.com/in/mauricio-ortiz-9b7741210/" target="_blank">
-                    <img src="./assets/LkN.png" alt='linkedIn logo' />
+                    <img src={linkedIn} alt='linkedIn logo' />
                 </a>
 
             </div>
