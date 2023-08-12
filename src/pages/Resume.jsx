@@ -31,7 +31,7 @@ const Resume = () => {
                     </ul>
                     <p className="btn btn-success">
                         Download Resume!
-                        <a href="components/assets/Mauricio_webDevRes.pdf" download="MauriciosResume"></a>
+                        <a href="../components/assets/Mauricio_webDevRes.pdf" download="MauriciosResume"></a>
                     </p>
                     </Col>
                 </Row>
