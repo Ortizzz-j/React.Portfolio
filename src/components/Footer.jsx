@@ -1,6 +1,6 @@
 import Stack from 'react-bootstrap/Stack'
 import './footer.scss'
-import linkedIn from './assets/linkedIn.png'
+import linkedIn from './assets/LkN.png'
 
 const Footer = () => {
     return (
