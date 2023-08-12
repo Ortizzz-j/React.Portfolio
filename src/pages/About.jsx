@@ -8,7 +8,7 @@ const About = () => {
             <Container fluid>
                 <Row>
                     <Col>
-                        <h1 className="d-flex justify-content-center">About <img src='src/components/assets/Mau.jpeg' className='mau' height="76px" width="65px" /></h1>
+                        <h1 className="d-flex justify-content-center">About <img src='../components/assets/Mau.jpeg' className='mau' height="76px" width="65px" /></h1>
                     </Col>
                 </Row>
                 <Row>
