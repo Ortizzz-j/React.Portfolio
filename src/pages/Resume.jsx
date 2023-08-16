@@ -30,10 +30,10 @@ const Resume = () => {
                             <li key={index}>{rdmp}</li>
                         ))}
                     </ul>
-                    <p className="btn btn-success">
+                    <button className="btn btn-success">
                         Download Resume!
                         <a href={resume} download="MauriciosResume"></a>
-                    </p>
+                    </button>
                     </Col>
                 </Row>
             </Container>
