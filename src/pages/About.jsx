@@ -15,7 +15,7 @@ const About = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className='d-flex justify-content-center'>Currently working in transportation & logistics, I took on this journey into tech towards the end of 2022. I have since learned how to center a div, amongst other things like Node, a bit of dom manipulation, Restful Api's, MySQL & NoSQL (mongodb). I still have much more to learn and explore as i hope to take on some more Vite + React projects to better my understanding of state and how to use other react components. My goal is by the end of this year, 2023, or sometime next year I can be a developer at a company that share the same values as I do.</p>
+                        <p className='d-flex justify-content-center'>Currently working in transportation & logistics, I took on this journey into tech towards the end of 2022. I have since learned how to center a div, MERN stack (Mongodb, Express, React, Node), Restful Api's, Bootstrap, MySQL along with other technologies. I still have much more to learn and explore as i hope to take on some more Vite + React projects to better my understanding of state and how to manage it, and how to use other react components. Post bootcamp I am also dedicating time to learn AWS, Java, C#, and Python. My goal is by the end of this year, 2023, or sometime next year I can be a developer at a company that share the same values as I do.</p>
                     </Col>
                 </Row>
             </Container>
